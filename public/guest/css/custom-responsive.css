@@ -1,0 +1,209 @@
+@charset "utf-8";
+/*------------------------------------------------------------------
+[Responsive Stylesheet]
+
+Project: UNHI
+Author: Pandika Pinata
+-------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------
+[Table of contents]
+
+1. Small desktop
+2. Tablet landskape
+3. Tablet Portrait
+4. Phone
+5. Small Phone
+6. Max Height 768
+-------------------------------------------------------------------*/
+
+
+/* ==============================
+   Small desktop
+   ============================== */
+
+@media only screen and (max-width: 1366px) {
+	
+	
+}  
+
+@media only screen and (max-width: 1200px) {
+    .container {
+        max-width: 768px!important;
+    }
+    
+}
+@media only screen and (max-width: 1199px) {
+    
+}
+
+/* ==============================
+   Tablet landskape
+   ============================== */
+
+@media only screen and (max-width: 1024px) {
+    
+
+}
+  
+@media only screen and (max-width: 992px) {
+    
+    
+}
+  
+  
+/* ==============================
+   Tablet Portrait
+   ============================== */
+  
+@media only screen and (max-width: 768px) {
+    .slider-content{
+        width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+    
+}
+
+
+/* ==============================
+   Phone
+   ============================== */
+  
+@media only screen and (max-width: 480px) {
+    .slider-in{
+        width: 100%;
+        position: static;
+    }
+
+    .slider-content{
+        width: 100%;
+        position: static;
+        padding: 15px 15px 15px 15px!important;
+        background: #002d69;
+        transform: translateY(0);
+        -webkit-transform: translateY(0);
+    }
+
+    .slider-title{
+        z-index: 1;
+        position: static;
+        text-align: left;
+        padding: 10px 40px 10px 10px;
+        left: 0;
+        top: -35px;
+        background: #e82a22;
+        -webkit-clip-path: unset;
+        clip-path: unset;
+    }
+
+    .bar__module {
+       margin-bottom: 0px;
+    }
+    
+    .slider-img{
+        width: 100%;
+        height: 240px;
+        object-fit: cover;
+        margin-bottom: 0px!important;
+    }
+
+    .full-slider{
+        background: #002d69;
+    }
+
+    .card-2{
+        margin-bottom: 30px;
+    }
+
+    .agenda-sidebar{
+        margin-top: 50px;
+    }
+
+    .headline-box{
+        height: 300px;
+    }
+
+    .headline-title{
+        margin-bottom: 10px;
+    }
+
+    .headline-mark{
+        background: #e82a22bd;
+        bottom: 110px;
+        left: 20px;
+    }
+
+    .headline-mark{
+        padding: 5px 40px 5px 26px;
+    }
+
+    .footer-unhi{
+        text-align: center;
+    }
+
+    .social-unhi{
+        text-align: center!important;
+    }
+
+    article.imagebg {
+        padding: 20px;
+    }
+
+    article.imagebg .article__title{
+        min-height: 128px;
+    }
+
+    .bg-holder-agama{
+        height: 200px;
+    }
+
+    .video-cover:not(:last-child){
+        margin-bottom: 0px;
+    }
+
+    .cta-unhi-h4{
+        text-transform: uppercase;
+        font-size: 29px;
+        letter-spacing: 15px;
+        font-family: "Montserrat",Helvetica,Arial,sans-serif;
+    }
+
+    .google-play{
+        width: 100%;
+        max-width: 200px;
+    }
+
+    html body .p-40 {
+        padding: 0px; 
+    }
+
+    html body .p-r-50 {
+        padding-right: 0px; 
+    }
+
+    html body .p-l-65 {
+        padding-left: 0px; 
+    }
+}
+
+
+/* ==============================
+   Small Phone
+   ============================== */
+  
+@media only screen and (max-width: 319px) {
+    
+}
+
+
+/* ==============================
+   Max Height 768
+   ============================== */
+
+@media only screen and (max-height: 767px) {
+
+
+}

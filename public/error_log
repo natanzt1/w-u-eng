@@ -1,0 +1,1 @@
+[16-Sep-2018 23:33:10 UTC] PHP Fatal error:  Cannot redeclare App\SSO\AuthRequest::$ssoServer in /home/samaweda/laravel/app/SSO/AuthRequest.php on line 48
